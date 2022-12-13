@@ -1,0 +1,32 @@
+Data monitoring is the process of checking the accuracy and completeness of information entered into a database. The data can also be evaluated to ensure that the information entered meets the registry or clinical trial objectives. The
+index-based query mechanism supports a wide range of queries and is suitable for most applications. However, some types of queries common in other database technologies are not supported. In particular,join and aggregate queries are not supported by the query engine in datastore mode.
+
+
+API stands for application program interface which is used as a interface between two applications having different functionalities.Api server should host on high quality hardware
+
+Initially we need to choose new datastore and store all the  transactions,records of a data and service
+
+We use system function now() to get the data from specific interval of time.we use  INTERVAL clause to calculate a data  in the past.
+
+These 1000 users may request same or different requests among these 1million requests there maybe multiple users requesting for same service which are replicated.
+
+Steps can be taken to remove redundant data:
+• Check if data is available or not
+• Remove redundancy
+• check if Requests made are properly executed and not rejected 
+
+
+Response time is the time it takes for one system node to react to another's request.The average amount of time required for each round-trip request is known as the Average Response time in performance testing.
+
+1)Get the API with maximum average response time across the users.
+
+Response time = HttpDispatcher:average_call_time + ((WebFrontend/Queue:call_count * WebFrontend/Queue:average_response_time)/ HttpDispatcher:call_count)
+
+2)Get the API with maximum average response time for each user.
+Avg Response time = (HttpDispatcher:average_call_time + ((WebFrontend/Queue:call_count * WebFrontend/Queue:average_response_time)/ HttpDispatcher:call_count)//total no.users
+
+3)Get error percentage of each API in buckets of 1 hours for 24 hours.
+The percentage of faulty requests is shown via a mathematical calculation called the error rate.
+
+The three most important response time values are 0.1, 1.0, and 10 seconds.
+
